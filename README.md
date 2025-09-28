@@ -50,10 +50,13 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ## HOW IT WORKS:(Under the Hood)
--System Message – Sets the context for the AI assistant, including sales promotions and policies
--Chat Function – Handles conversation history, user messages, and generates responses using OpenAI GPT-4
--Tools – Custom functions like get_ticket_price fetch ticket prices dynamically
--Gradio Interface – Provides an interactive chat UI for users to communicate with the assistant
+System Message – Sets the context for the AI assistant, including sales promotions and policies
+
+Chat Function – Handles conversation history, user messages, and generates responses using OpenAI GPT-4
+
+Tools – Custom functions like get_ticket_price fetch ticket prices dynamically
+
+Gradio Interface – Provides an interactive chat UI for users to communicate with the assistant
 
 ## Project Structure:
 Airline-assistant-project/
@@ -66,20 +69,25 @@ Airline-assistant-project/
 
 
 ## Sample output:
--User: Hi, I want to buy a ticket to London.
--Assistant: Wonderful! A return ticket to London costs $799.
+User: Hi, I want to buy a ticket to London.
 
--User: What about Paris?
--Assistant: A return ticket to Paris costs $899.
+Assistant: Wonderful! A return ticket to London costs $799.
 
--User: Do you have any hats on sale?
--Assistant: Yes! Hats are currently 60% off — perfect time to grab one.
+User: What about Paris?
 
--User: Are shoes on sale today?
--Assistant: Shoes are not on sale today, but don’t miss our hats at 60% off!
+Assistant: A return ticket to Paris costs $899.
 
--User: Can I buy a belt?
--Assistant: We don’t sell belts, but many other items are on sale. Hats and clothing are great options!
+User: Do you have any hats on sale?
+
+Assistant: Yes! Hats are currently 60% off — perfect time to grab one.
+
+User: Are shoes on sale today?
+
+Assistant: Shoes are not on sale today, but don’t miss our hats at 60% off!
+
+User: Can I buy a belt?
+
+Assistant: We don’t sell belts, but many other items are on sale. Hats and clothing are great options!
 
 ## Visual Example in Gradio:
 

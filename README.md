@@ -30,19 +30,13 @@ GETTING STARTED:
 Clone the Repository
 "bash"
 git clone https://github.com/ujjesha1312/Airline-assistant-project.git
-
 cd Airline-assistant-project
-
 python -m venv venv (create a virtual environment)
-
 #Windows:
 venv\Scripts\activate
-
 #macOS/Linux:
 source venv/bin/activate
-
 pip install -r requirements.txt (install dependencies)
-
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (your OpenAI API key)
 
 
@@ -52,7 +46,8 @@ Chat Function – Handles conversation history, user messages, and generates res
 Tools – Custom functions like get_ticket_price fetch ticket prices dynamically.
 Gradio Interface – Provides an interactive chat UI for users to communicate with the assistant.
 
-PROJECT STRUCTURE
+
+PROJECT STRUCTURE:
 bash
 Copy code
 Airline-assistant-project/
@@ -63,20 +58,24 @@ Airline-assistant-project/
 ├── .gitignore         # Ignore files like .env, venv
 └── README.md          # Project documentation
 
+
 SAMPLE OUTPUT:
 User: Hi, I want to buy a ticket to London.
 Assistant: Wonderful! A return ticket to London costs $799.
+
 User: What about Paris?
 Assistant: A return ticket to Paris costs $899.
+
 User: Do you have any hats on sale?
 Assistant: Yes! Hats are currently 60% off — perfect time to grab one.
+
 User: Are shoes on sale today?
 Assistant: Shoes are not on sale today, but don’t miss our hats at 60% off!
+
 User: Can I buy a belt?
 Assistant: We don’t sell belts, but many other items are on sale. Hats and clothing are great options!
 
 [ Chat Interface Screenshot ]
-+-----------------------------------------------+
 | FlightAI Assistant                             |
 |-----------------------------------------------|
 | User: Hi, I want to buy a ticket to London.  |
@@ -85,11 +84,13 @@ Assistant: We don’t sell belts, but many other items are on sale. Hats and clo
 | Assistant: Shoes are not on sale today, ...  |
 +-----------------------------------------------+
 
+
 FUTURE ENHANCEMENTS:
 Add more destinations and dynamic ticket pricing
 Export chat logs for customer service review
 Integrate with real airline booking APIs
 Multilingual support for international customers
+
 
 DISCLAIMER:
 This tool is for educational and demonstration purposes.

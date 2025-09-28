@@ -20,34 +20,29 @@ Whether you’re helping customers, handling inquiries, or providing ticket info
 
 
 ## Getting Started
-
 ### ->Clone the Repository
-bash
+```
 git clone https://github.com/ujjesha1312/Airline-assistant-project.git
 cd Airline-assistant-project
+```
 ->Create a Virtual Environment
-bash
-Copy code
+```
 python -m venv venv
-->Activate the Virtual Environment
-bash
-Copy code
+```
 # Windows
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 # macOS/Linux
-source venv/bin/activate
+```source venv/bin/activate```
 ->Install Dependencies
-bash
-Copy code
+```
 pip install -r requirements.txt
+```
 ->Add Your OpenAI API Key
 Create a .env file in the project root:
-
-ini
-Copy code
+```
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
+```
 
 ## HOW IT WORKS:(Under the Hood)
 System Message – Sets the context for the AI assistant, including sales promotions and policies

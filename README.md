@@ -30,13 +30,19 @@ GETTING STARTED:
 Clone the Repository
 "bash"
 git clone https://github.com/ujjesha1312/Airline-assistant-project.git
+
 cd Airline-assistant-project
+
 python -m venv venv (create a virtual environment)
+
 #Windows:
 venv\Scripts\activate
+
 #macOS/Linux:
 source venv/bin/activate
+
 pip install -r requirements.txt (install dependencies)
+
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (your OpenAI API key)
 
 
@@ -68,6 +74,7 @@ User: Are shoes on sale today?
 Assistant: Shoes are not on sale today, but don’t miss our hats at 60% off!
 User: Can I buy a belt?
 Assistant: We don’t sell belts, but many other items are on sale. Hats and clothing are great options!
+
 [ Chat Interface Screenshot ]
 +-----------------------------------------------+
 | FlightAI Assistant                             |

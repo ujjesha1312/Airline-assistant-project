@@ -9,16 +9,7 @@ What It Does
 - Replies with “I don’t know” if the requested information isn’t available  
 - Runs locally using a "Gradio chat interface" for interactive conversation  
 - Customizes responses based on user input (e.g., items on sale, unavailable requests)
-
-Example Interaction
-User:"How much is a ticket to Paris?"  
-Assistant:"A return ticket to Paris costs $899."
-
-User:"Can I get a ticket to Rome?"  
-Assistant:"I don’t know the ticket price for Rome."
-
-User:"Are shoes on sale?"  
-Assistant:"Shoes are not on sale today, but don’t miss our hats at 60% off!"
+  
 
 Tech Stack
 - Python 3.9+ 
@@ -30,13 +21,19 @@ GETTING STARTED:
 Clone the Repository
 "bash"
 git clone https://github.com/ujjesha1312/Airline-assistant-project.git
+
 cd Airline-assistant-project
+
 python -m venv venv (create a virtual environment)
+
 #Windows:
 venv\Scripts\activate
+
 #macOS/Linux:
 source venv/bin/activate
+
 pip install -r requirements.txt (install dependencies)
+
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (your OpenAI API key)
 
 

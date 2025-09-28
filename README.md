@@ -61,11 +61,11 @@ Gradio Interface – Provides an interactive chat UI for users to communicate wi
 ## Project Structure:
 Airline-assistant-project/
 │
-├── app.py             # Main application
-├── requirements.txt   # Dependencies
-├── .env.example       # Example environment variables
-├── .gitignore         # Ignore files like .env, venv
-└── README.md          # Project documentation
+├── app.py # Main application
+├── requirements.txt # Dependencies
+├── .env.example # Example environment variables
+├── .gitignore # Ignore files like .env, venv
+└── README.md # Project documentation
 
 
 ## Sample output:

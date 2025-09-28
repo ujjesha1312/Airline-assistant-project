@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Virtualenv / env
+venv/
+.env
+.env.*
+.venv/
+# OS
+.DS_Store
+# VS Code
+.vscode/

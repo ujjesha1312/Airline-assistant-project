@@ -59,13 +59,14 @@ Tools – Custom functions like get_ticket_price fetch ticket prices dynamically
 Gradio Interface – Provides an interactive chat UI for users to communicate with the assistant
 
 ## Project Structure:
-Airline-assistant-project/
+``` Airline-assistant-project/
 │
 ├── app.py # Main application
 ├── requirements.txt # Dependencies
 ├── .env.example # Example environment variables
 ├── .gitignore # Ignore files like .env, venv
 └── README.md # Project documentation
+```
 
 
 ## Sample output:

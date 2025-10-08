@@ -106,6 +106,3 @@ Multilingual support for international customers
 Disclaimer:
 This tool is for educational and demonstration purposes.
 Always verify ticket prices and airline policies before relying on it for professional use.
-
-
-Do you want me to do that?
